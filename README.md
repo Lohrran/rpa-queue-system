@@ -52,16 +52,16 @@ It will have two main tables to keep eye on.
 	- 03 – Load Data
 	- 04 – Security
 	
-2.	For each file opened previously replace the follow parameters:
-	a.	[DATABASE_NAME]: Replace this for the name of the database where it will be deployed.
-	b.	[KEYNAME]: Replace this for the name of the SYMMETRIC  KEY from the database where it will be deploy.
-	c.	[CERTIFICATE_NAME]: Replace this for the name of the CERTIFICATE  from the database where it will be deploy.
-	d.	RXXP0X: Replace this for the name of the username whom will have the access to the database.
-	e.	[BOT_NAME]: Replace this for the name of the robot to be deploy.
-	f.	[COLUMN_NAMES]: Replace this for the solution business columns.
-	g.	[KEY_NAME]:  Replace this for the column that will be used as the key identificator.
+- For each file opened previously replace the follow parameters:
+	- [DATABASE_NAME]: Replace this for the name of the database where it will be deployed.
+	- [KEYNAME]: Replace this for the name of the SYMMETRIC  KEY from the database where it will be deploy.
+	- [CERTIFICATE_NAME]: Replace this for the name of the CERTIFICATE  from the database where it will be deploy.
+	- RXXP0X: Replace this for the name of the username whom will have the access to the database.
+	- [BOT_NAME]: Replace this for the name of the robot to be deploy.
+	- [COLUMN_NAMES]: Replace this for the solution business columns.
+	- [KEY_NAME]:  Replace this for the column that will be used as the key identificator.
 	
-3.	Execute the files in the order as ordered: 01, 02, 03, 04.
+- Execute the files in the order as ordered: 01, 02, 03, 04.
 
 
 ## Observation
