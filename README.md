@@ -46,11 +46,11 @@ It will have two main tables to keep eye on.
 ## How to
 
 #### How to Install Database
-1.	Open the follow files (.sql): 
-	a.	01 – Create Tables
-	b.	02 – Stored Procedures
-	c.	03 – Load Data
-	d.	04 – Security
+- Open the follow files (.sql): 
+	- 01 – Create Tables
+	- 02 – Stored Procedures
+	- 03 – Load Data
+	- 04 – Security
 	
 2.	For each file opened previously replace the follow parameters:
 	a.	[DATABASE_NAME]: Replace this for the name of the database where it will be deployed.
