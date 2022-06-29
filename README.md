@@ -43,9 +43,11 @@ It will have two main tables to keep eye on.
 </Data>
 ```
 
-## How to
+> Note: item_state has 4 states: Pending, Locked, Completed, Terminated.
 
-#### How to Install Database
+More details about the database check out the manual.
+
+## How to Install Database
 - Open the follow files (.sql): 
 	- 01 – Create Tables
 	- 02 – Stored Procedures
@@ -53,16 +55,15 @@ It will have two main tables to keep eye on.
 	- 04 – Security
 	
 - For each file opened previously replace the follow parameters:
-	- [DATABASE_NAME]: Replace this for the name of the database where it will be deployed.
-	- [KEYNAME]: Replace this for the name of the SYMMETRIC  KEY from the database where it will be deploy.
-	- [CERTIFICATE_NAME]: Replace this for the name of the CERTIFICATE  from the database where it will be deploy.
-	- RXXP0X: Replace this for the name of the username whom will have the access to the database.
-	- [BOT_NAME]: Replace this for the name of the robot to be deploy.
-	- [COLUMN_NAMES]: Replace this for the solution business columns.
-	- [KEY_NAME]:  Replace this for the column that will be used as the key identificator.
+	- **[DATABASE_NAME]:** Replace this for the name of the database where it will be deployed.
+	- **[KEYNAME]:** Replace this for the name of the SYMMETRIC  KEY from the database where it will be deploy.
+	- **[CERTIFICATE_NAME]:** Replace this for the name of the CERTIFICATE  from the database where it will be deploy.
+	- **RXXP0X:** Replace this for the name of the username whom will have the access to the database.
+	- **[BOT_NAME]:** Replace this for the name of the robot to be deploy.
+	- **[COLUMN_NAMES]:** Replace this for the solution business columns.
+	- **[KEY_NAME]:**  Replace this for the column that will be used as the key identificator.
 	
 - Execute the files in the order as ordered: 01, 02, 03, 04.
 
-
 ## Observation
-
+This system should be wrap with another technology to facilitate the use of it. 

@@ -69,7 +69,6 @@ GRANT SELECT, UPDATE, INSERT, DELETE ON WorkQueue						TO [DOMAIN\RXXP0X];
 GRANT SELECT, UPDATE, INSERT, DELETE ON WorkQueueTask					TO [DOMAIN\RXXP0X];
 GRANT SELECT, UPDATE, INSERT, DELETE ON WorkQueueItemTask				TO [DOMAIN\RXXP0X];
 
-GRANT SELECT, UPDATE, INSERT, DELETE ON WorkQueueEnvironmentLocker		TO [DOMAIN\RXXP0X];
 GRANT SELECT, UPDATE, INSERT, DELETE ON WorkQueueExecution				TO [DOMAIN\RXXP0X];
 GRANT SELECT, UPDATE, INSERT, DELETE ON WorkQueueResource				TO [DOMAIN\RXXP0X];
 
@@ -134,9 +133,6 @@ GRANT EXECUTE ON sp_update_execution_status					TO [DOMAIN\RXXP0X];
 GRANT EXECUTE ON sp_update_resource_status					TO [DOMAIN\RXXP0X];
 GRANT EXECUTE ON sp_wait_resources_update_status			TO [DOMAIN\RXXP0X];
 GRANT EXECUTE ON sp_create_execution_attempt				TO [DOMAIN\RXXP0X];
-GRANT EXECUTE ON sp_clean_environment_locks					TO [DOMAIN\RXXP0X];
-GRANT EXECUTE ON sp_get_environment_lock					TO [DOMAIN\RXXP0X];
-GRANT EXECUTE ON sp_release_environment_lock				TO [DOMAIN\RXXP0X];
 ---------- STORED PROCEDURES ----------
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------

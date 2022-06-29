@@ -63,19 +63,6 @@ ALTER TABLE [dbo].[WorkQueueItemTask]  WITH CHECK ADD FOREIGN KEY([task_id])
 REFERENCES [dbo].[WorkQueueTask] ([task_id])
 GO
 
-
-
-CREATE TABLE [dbo].[WorkQueueEnvironmentLocker](
-	[environment_id] [int] IDENTITY(1,1) NOT NULL,
-	[environment_name] [varchar](100) NULL,
-	[environment_state] [varchar](20) NOT NULL,
-	[resource_name] [varchar](20) NULL,
-	[last_updated] [varchar](20) NULL
-) ON [PRIMARY]
-GO
-GO
-
-
 CREATE TABLE [dbo].[WorkQueueExecution](
 	[execution_id] [int] IDENTITY(1,1) NOT NULL,
 	[execution_state] [varchar](15) NOT NULL,
