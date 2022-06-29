@@ -3,7 +3,7 @@
 ## Overview
 The objective for the system it's to facilitate the automation with software that does not have an integrated work queue.
 
-## Scheme
+## Schema
 <p align="center">
   <img width="auto" height="auto" src="https://i.ibb.co/jTSfDxX/workqueue-diagram-drawio.png">
 </p>
