@@ -8,7 +8,7 @@ So thinking in that I created a common system that could be use for any RPA proj
 ## Introduction
 It's a queue system simple to understand and easy to use, it was based on different queue system, but mainly in the Blue Prism Tool, from cross internet.
 
-> The queue system can handle mostly every automation.
+> The queue system can handle mostly every automation and also can safely work with multiples robots at the same automation because the work queue balance implemented.
 
 
 ## What it Looks Like?
@@ -22,7 +22,7 @@ It will have two main tables to keep eye on.
 | QueueName  | document_number | 3           | person_name,document_number,document_type,person_email |
            
 
-**WorkQueue:** Track of each item and its attempt load to the queue. 
+**WorkQueue:** Track of each item and its attempt loaded to the queue. 
 
 
 | item_id | item_state | item_key | item_status | item_priority | item_attempt | item_defer_date | item_worked_time | item_start_date  | item_end_date | item_exception_reason | item_queue_name | item_data   | item_resource_nam |
