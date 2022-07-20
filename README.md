@@ -66,4 +66,4 @@ More details about the database check out the manual.
 - Execute the files in the order as ordered: 01, 02, 03, 04.
 
 ## Observation
-This system should be wrap with another technology to facilitate the use of it. 
+This system should be wrap with another technology to facilitate the use of it, such as Selenium. 
